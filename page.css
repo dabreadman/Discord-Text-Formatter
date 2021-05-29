@@ -1,4 +1,23 @@
-#output-div {
+button {
+    background-color: rgb(57, 59, 64);
+    border: 2px solid lightblue;
+}
+
+input {
+    background-color: rgb(109, 111, 117);
+}
+
+body {
+    background-color: rgb(47, 49, 54)
+}
+
+html * {
+    color: rgb(235, 229, 229);
+    font-family: Arial;
+}
+
+#note,
+#outputDiv {
     margin-top: 15px
 }
 
@@ -6,11 +25,11 @@
     border: none
 }
 
-#output-description {
+#outputDescription {
     font-size: 20px;
 }
 
-#copy-notification {
-    height: 2rem;
+#copyNotification {
+    height: 1.5rem;
     width: 4rem
 }
