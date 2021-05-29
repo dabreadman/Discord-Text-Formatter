@@ -1,26 +1,23 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "Discord Formate",
+  "description": "Turn boring text into emotes!",
   "version": "1.0",
   "manifest_version": 3,
-  "background": {
-    "service_worker": "background.js"
-  },
-  "options_page": "options.html",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "options_page": "popup.html",
+  "permissions": ["scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/images/Formate_16.png",
+      "32": "/images/Formate_32.png",
+      "48": "/images/Formate_48.png",
+      "64": "/images/Formate_64.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/images/Formate_16.png",
+    "32": "/images/Formate_32.png",
+    "48": "/images/Formate_48.png",
+    "64": "/images/Formate_64.png"
   }
 }
