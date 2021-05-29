@@ -4,6 +4,11 @@ formatString.addEventListener("click", async() => {
     showCopiedNotification();
 });
 
+copyNotification.addEventListener("click", async() => {
+    copyClipboard();
+    showCopiedNotification();
+});
+
 function formatInputSetText() {
     const input = document.getElementById("input").value;
     const formattedText = discord_emote_format(input);
@@ -88,9 +93,9 @@ function copyClipboard() {
 }
 
 function showCopiedNotification() {
-    let notification = document.getElementById("copy-notification");
+    let notification = document.getElementById("copyNotification");
     notification.innerHTML = "Copied!";
     setTimeout(function() {
-        notification.innerHTML = "";
-    }, 2000);
+        notification.innerHTML = "Copy";
+    }, 3000);
 }
