@@ -1,23 +1,23 @@
 {
-  "name": "Discord Formate",
-  "description": "Turn boring text into emotes!",
-  "version": "1.0",
-  "manifest_version": 3,
-  "options_page": "popup.html",
-  "permissions": ["scripting"],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "/images/Formate_16.png",
-      "32": "/images/Formate_32.png",
-      "48": "/images/Formate_48.png",
-      "64": "/images/Formate_64.png"
+    "name": "Discord Formate",
+    "description": "Turn boring text into emotes!",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "options_page": "popup.html",
+    "permissions": ["scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/Formate_16.png",
+            "32": "/images/Formate_32.png",
+            "48": "/images/Formate_48.png",
+            "64": "/images/Formate_64.png"
+        }
+    },
+    "icons": {
+        "16": "/images/Formate_16.png",
+        "32": "/images/Formate_32.png",
+        "48": "/images/Formate_48.png",
+        "64": "/images/Formate_64.png"
     }
-  },
-  "icons": {
-    "16": "/images/Formate_16.png",
-    "32": "/images/Formate_32.png",
-    "48": "/images/Formate_48.png",
-    "64": "/images/Formate_64.png"
-  }
 }
