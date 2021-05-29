@@ -1,0 +1,16 @@
+#output-div {
+    margin-top: 15px
+}
+
+#output {
+    border: none
+}
+
+#output-description {
+    font-size: 20px;
+}
+
+#copy-notification {
+    height: 2rem;
+    width: 4rem
+}
