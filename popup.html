@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="button.css" />
-  </head>
-  <body>
-    <input id="input" name="input" placeholder="Type something" />
-    <button id="formatString">Format String</button>
-    <text id="output">Place holder</text>
+
+<head>
+    <title>Discord Formate</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="page.css" />
+</head>
+
+<body>
+    <h1>Discord Formate</h1>
+    <div id="input-div">
+        <input id="input" placeholder="Type something" />
+        <button id="formatString">🇫 🇴 🇷 🇲 🇦 🇹 & 🇨 🇴 🇵 🇾</button>
+    </div>
+
+    <div id="output-div">
+        <text id="output-description"> Paste this into Discord! </text>
+        <br />
+        <input id="output" placeholder="Copy this!" readonly />
+        <button id="copy-notification" disabled>Copied!</button>
+    </div>
     <script src="popup.js"></script>
-  </body>
+</body>
+
 </html>
