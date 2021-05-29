@@ -9,18 +9,23 @@
 
 <body>
     <h1>Discord Formate</h1>
-    <div id="input-div">
+    <div id="inputDiv">
         <input id="input" placeholder="Type something" />
         <button id="formatString">🇫 🇴 🇷 🇲 🇦 🇹 & 🇨 🇴 🇵 🇾</button>
     </div>
 
-    <div id="output-div">
-        <text id="output-description"> Paste this into Discord! </text>
+    <div id="outputDiv">
+        <text id="outputDescription"> Paste this into Discord! </text>
         <br />
         <input id="output" placeholder="Copy this!" readonly />
-        <button id="copy-notification" disabled>Copied!</button>
+        <button id="copyNotification">Copy</button>
+    </div>
+
+    <div id="note">
+        <text id="characterLimit">Note: We can paste ~400 emotes at once with this method, if needed more
+        could try pasting 400 emotes after another 400.</text
+      >
     </div>
     <script src="popup.js"></script>
-</body>
-
+  </body>
 </html>
