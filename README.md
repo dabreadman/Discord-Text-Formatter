@@ -27,7 +27,7 @@ Format text to emotes in Discord!
 
 ## Supported Characters
 
-### We use default emotes, so no Nitro or server-specified emotes required!
+<b> We use default emotes, so no Nitro or server-specified emotes required! </b>
 
 - Any digits: `0-9`
 - Any English alphabets: `a-z`
