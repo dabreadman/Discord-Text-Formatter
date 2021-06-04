@@ -2,7 +2,9 @@
 
 Format text to emotes in Discord!
 
-<a href="https://chrome.google.com/webstore/detail/discord-formate/nmgpmpibbphoiajjgaoabdplpnjgjlad" target="_blank"><img src="https://github.com/dabreadman/Discord-Text-Formatter/blob/master/images/Formate_64.png" width="64" height="64"></a>
+<a href="https://chrome.google.com/webstore/detail/discord-formate/nmgpmpibbphoiajjgaoabdplpnjgjlad" target="_blank"><img src="https://imgur.com/3C4iKO0.png" width="64" height="64"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/discord-formate/" target="_blank"><img src="https://imgur.com/ihXsdDO.png" width="64" height="64"></a>
+
 
 ## What is this?
 
